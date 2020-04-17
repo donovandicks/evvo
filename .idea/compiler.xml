@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="evvo" />
+        <module name="evvo_private" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="evvo" options="-Werror" />
+      <module name="evvo_private" options="-Werror" />
     </option>
   </component>
 </project>
